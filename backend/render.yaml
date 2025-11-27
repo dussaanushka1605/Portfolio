@@ -1,0 +1,13 @@
+# Render configuration for backend deployment
+services:
+  - type: web
+    name: portfolio-backend
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    # Uncomment and configure when you add backend code
+    # healthCheckPath: /health
+
