@@ -1,12 +1,44 @@
-# Backend
+# Backend - Portfolio API
 
-This folder contains all backend-related files and code.
+This is the backend API for the Anushka Dussa Portfolio project.
 
-## Structure
+## 🚧 Current Status
 
-Backend files will be organized here when implemented.
+The backend is currently empty and ready for implementation.
 
-## Getting Started
+## 📦 Setup (When Implemented)
 
-To set up the backend, follow the instructions specific to your backend framework (Node.js/Express, Python/Flask, etc.).
+```bash
+npm install
+npm run dev
+```
 
+## 🚀 Deployment on Render
+
+### Configuration:
+- **Root Directory:** `backend`
+- **Build Command:** `npm install`
+- **Start Command:** `npm start`
+- **Node Version:** 18 (or latest LTS)
+
+### Environment Variables (When Needed):
+```env
+NODE_ENV=production
+PORT=10000
+DATABASE_URL=your_database_url
+JWT_SECRET=your_jwt_secret
+```
+
+## 📝 Future Implementation
+
+When implementing the backend, consider:
+- REST API endpoints
+- Database integration
+- Authentication (if needed)
+- CORS configuration
+- Error handling
+- API documentation
+
+---
+
+**Author:** Anushka Markandeya Dussa
