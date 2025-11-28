@@ -20,26 +20,22 @@ const Certificates = () => {
       title: t('certificates.nptelJava.title'),
       issuer: t('certificates.nptelJava.issuer'),
       date: t('certificates.nptelJava.date'),
-      link: 'https://drive.google.com/file/d/1CIkd6kXBifSz1i9DIvcM5mV1aLIu_GNO/view?usp=drivesdk',
+      link: 'https://drive.google.com/file/d/1CIkd6kXBifSz1i9DIvcM5mV1aLIu_GNO/preview',
       isExternal: true,
     },
     {
       title: t('certificates.nptelSoftskills.title'),
       issuer: t('certificates.nptelSoftskills.issuer'),
       date: t('certificates.nptelSoftskills.date'),
-
-      link: 'https://drive.google.com/file/d/1DIpENBwbxwoX756aq4kiZHxc5D6-s4zJ/view?usp=drivesdk',
+      link: 'https://drive.google.com/file/d/1DIpENBwbxwoX756aq4kiZHxc5D6-s4zJ/preview',
       isExternal: true,
-
     },
     {
       title: t('certificates.devops.title'),
       issuer: t('certificates.devops.issuer'),
       date: t('certificates.devops.date'),
-
-      link: 'https://drive.google.com/file/d/1yXaBFSyOPipC4vU6oEEAK2kt6aGROA1u/view?usp=drivesdk',
+      link: 'https://drive.google.com/file/d/1yXaBFSyOPipC4vU6oEEAK2kt6aGROA1u/preview',
       isExternal: true,
-
     },
   ];
 
