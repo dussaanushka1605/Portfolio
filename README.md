@@ -56,11 +56,8 @@ Backend is currently empty and ready for future implementation.
 3. Set publish directory: `frontend/dist`
 4. Deploy!
 
-### Backend (Render)
-1. Connect your GitHub repository to Render
-2. Select the `backend` directory
-3. Use the provided `render.yaml` configuration
-4. Deploy!
+### Backend (Not Required)
+This portfolio is a static frontend application and does not require backend deployment. All features work without a server.
 
 ## 📝 License
 

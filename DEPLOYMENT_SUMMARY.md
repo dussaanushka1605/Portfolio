@@ -41,45 +41,11 @@ If you add features later, you might need:
 
 ---
 
-## 🔧 BACKEND - Render Deployment
+## 🔧 BACKEND - Not Required
 
-### Build Configuration:
-```
-Root Directory: backend
-Build Command: npm install
-Start Command: npm start
-Environment: Node
-Node Version: 18 (or latest LTS)
-Port: 10000 (auto-assigned by Render)
-```
+**Note:** This portfolio is a static frontend application. Backend deployment is **NOT needed** as all features work without a server.
 
-### Environment Variables:
-**Currently: NONE REQUIRED** ✅
-
-When you implement backend, you might need:
-```env
-NODE_ENV=production
-PORT=10000
-DATABASE_URL=your_database_url
-JWT_SECRET=your_jwt_secret
-```
-
-### Render Settings:
-1. **New Web Service:**
-   - Repository: `dussaanushka1605/Portfolio`
-   - Root Directory: `backend`
-   - Environment: `Node`
-   - Build Command: `npm install`
-   - Start Command: `npm start`
-
-2. **Deployment:**
-   - Render will auto-detect `render.yaml` configuration
-   - Click "Create Web Service"
-
-### Files Ready:
-- ✅ `backend/render.yaml` - Render configuration
-- ✅ `backend/package.json` - Basic setup
-- ✅ `backend/README.md` - Documentation
+The `backend/` folder is reserved for future use if you decide to add backend functionality later.
 
 ---
 
