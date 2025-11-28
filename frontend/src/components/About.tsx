@@ -21,7 +21,7 @@ const About = () => {
         viewport={{ once: true }}
         className="glass rounded-3xl p-8 md:p-12 max-w-6xl w-full"
       >
-        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center text-glow">
+        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center text-foreground text-glow">
           {t('about.title')}
         </h2>
 

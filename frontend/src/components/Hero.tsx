@@ -45,8 +45,7 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2 }}
-          className="text-4xl md:text-6xl font-bold mb-6 text-glow"
-          style={{ color: 'hsl(var(--foreground))' }}
+          className="text-4xl md:text-6xl font-bold mb-6 text-foreground text-glow"
         >
           {t('hero.greeting')}
         </motion.h1>

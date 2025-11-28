@@ -22,7 +22,7 @@ const Experience = () => {
         viewport={{ once: true }}
         className="max-w-4xl w-full"
       >
-        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center text-glow">
+        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center text-foreground text-glow">
           {t('experience.title')}
         </h2>
 
@@ -32,7 +32,7 @@ const Experience = () => {
               <Briefcase size={32} className="text-primary" />
             </div>
             <div className="flex-1">
-              <h3 className="text-2xl font-bold mb-2">{t('experience.role')}</h3>
+              <h3 className="text-2xl font-bold mb-2 text-foreground">{t('experience.role')}</h3>
               <p className="text-xl text-accent font-semibold mb-1">{t('experience.company')}</p>
               <p className="text-muted-foreground">{t('experience.duration')}</p>
             </div>

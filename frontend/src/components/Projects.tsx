@@ -49,7 +49,7 @@ const Projects = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-5xl font-bold mb-12 text-center text-glow"
+          className="text-3xl md:text-5xl font-bold mb-12 text-center text-foreground text-glow"
         >
           {t('projects.title')}
         </motion.h2>
@@ -67,7 +67,7 @@ const Projects = () => {
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none`} />
               
-              <h3 className="text-2xl font-bold mb-3 text-glow">{project.name}</h3>
+              <h3 className="text-2xl font-bold mb-3 text-foreground">{project.name}</h3>
               <p className="text-accent font-semibold mb-4">{project.description}</p>
               <p className="text-muted-foreground mb-6">{project.features}</p>
 

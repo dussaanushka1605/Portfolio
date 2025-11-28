@@ -57,7 +57,7 @@ const Resume = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-5xl font-bold mb-12 text-center text-glow"
+          className="text-3xl md:text-5xl font-bold mb-12 text-center text-foreground text-glow"
         >
           {t('resume.title')}
         </motion.h2>
@@ -70,11 +70,11 @@ const Resume = () => {
           className="glass rounded-3xl p-8 max-w-2xl mx-auto"
         >
           <div className="flex flex-col items-center gap-6">
-            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <FileText size={40} className="text-white" />
-            </div>
+                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
+                    <FileText size={40} className="text-primary-foreground" />
+                  </div>
             
-            <h3 className="text-2xl font-bold text-glow">{t('resume.subtitle')}</h3>
+            <h3 className="text-2xl font-bold text-foreground">{t('resume.subtitle')}</h3>
             <p className="text-muted-foreground text-center">
               {t('resume.description')}
             </p>

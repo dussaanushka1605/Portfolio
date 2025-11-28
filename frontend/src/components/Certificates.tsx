@@ -72,7 +72,7 @@ const Certificates = () => {
           viewport={{ once: true }}
           className="flex items-center justify-center gap-4 mb-12"
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-center text-glow">
+          <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground text-glow">
             {t('certificates.title')}
           </h2>
 
@@ -116,12 +116,12 @@ const Certificates = () => {
               
               <div className="flex flex-col items-center text-center gap-4">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                  <Award size={32} className="text-white" />
+                  <Award size={32} className="text-primary-foreground" />
                 </div>
                 
-                <h3 className="text-xl font-bold text-glow">{cert.title}</h3>
+                <h3 className="text-xl font-bold text-foreground">{cert.title}</h3>
                 <p className="text-accent font-semibold">{cert.issuer}</p>
-                <p className="text-muted-foreground text-sm">{cert.date}</p>
+                <p className="text-foreground/80 text-sm">{cert.date}</p>
 
                 {cert.isExternal && (
                   <Button

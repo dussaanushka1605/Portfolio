@@ -58,7 +58,7 @@ const Skills = () => {
           viewport={{ once: true }}
           className="flex items-center justify-center gap-4 mb-12"
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-center text-glow">
+          <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground text-glow">
             {t('skills.title')}
           </h2>
 

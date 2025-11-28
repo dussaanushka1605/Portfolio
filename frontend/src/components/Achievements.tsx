@@ -25,7 +25,7 @@ const Achievements = () => {
           viewport={{ once: true }}
           className="flex items-center justify-center gap-4 mb-12"
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-center text-glow">
+          <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground text-glow">
             {t('achievements.title')}
           </h2>
 
@@ -80,7 +80,7 @@ const Achievements = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-2xl md:text-4xl font-bold mb-8 text-center text-glow-secondary"
+          className="text-2xl md:text-4xl font-bold mb-8 text-center text-foreground text-glow-secondary"
           style={{ color: 'hsl(var(--accent))' }}
         >
           {t('responsibilities.title')}
