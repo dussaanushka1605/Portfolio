@@ -7,25 +7,26 @@ const resources = {
       nav: {
         home: "Home",
         about: "About",
+        education: "Education",
         skills: "Skills",
         experience: "Internship",
         projects: "Projects",
         resume: "Resume",
         certificates: "Certificates",
         achievements: "Achievements",
-        responsibilities: "Positions"
+        responsibilities: "Core Strengths"
       },
       hero: {
         greeting: "Hi, I'm Anushka 👋",
-        subtitle: "Web Developer • DevOps Enthusiast • Java | MERN | AWS",
+        subtitle: "Full-Stack Developer • MERN Stack",
         exploreProjects: "Explore Projects",
         contactMe: "Contact Me",
         activateVoice: "Activate Voice Mode 🎙️",
-        intro: "Welcome! I'm Anushka, a web developer passionate about building meaningful tech experiences."
+        intro: "Welcome! I'm Anushka, a software engineer passionate about building meaningful tech experiences."
       },
       about: {
         title: "About Me",
-        bio: "Full-Stack Developer skilled in MERN stack and Java with hands-on experience building scalable applications, secure authentication systems, and real-time WebSocket-based platforms. Currently pursuing B.E. in Computer Science at NBN Sinhgad College of Engineering (CGPA: 9.10/10). Experienced in AWS cloud automation and CI/CD pipelines with a strong problem-solving mindset.",
+        bio: "Full-Stack Developer skilled in Java, Python, SQL, MERN Stack, DSA, and DBMS. Experienced in building scalable web applications, REST APIs, secure authentication systems, and real-time features through internships and project experience. Strong problem-solving skills with a CGPA of 9.28/10 and a passion for delivering real-world solutions.",
         location: "Solapur, Maharashtra",
         playVoice: "Play Voice Summary 🔊",
         stop: "Stop 🔇",
@@ -34,24 +35,24 @@ const resources = {
       skills: {
         title: "Technical Skills",
         languages: "Programming Languages",
-        languagesList: "Java, JavaScript, C, Python, SQL",
+        languagesList: "Java, Python, SQL, C",
         webTech: "Web Technologies",
-        webTechList: "React.js, Node.js, Express.js, MongoDB",
-        tools: "Tools & Cloud",
-        toolsList: "AWS (S3, Lambda, Glue, EMR, Redshift), Jenkins, Maven, Git, GitHub",
+        webTechList: "HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, MySQL, Firebase",
+        tools: "Tools & Platforms",
+        toolsList: "Git, GitHub, Postman, Vercel, Netlify, Render",
         other: "Other Skills",
-        otherList: "REST APIs, WebSocket, JWT, CI/CD, Cloud Automation",
+        otherList: "REST APIs, WebSocket, JWT, Role-based Access Control, Secure Authentication, DBMS Concepts",
         listenSummary: "Listen Summary 🔊",
         stop: "Stop 🔇"
       },
       experience: {
         title: "Internship Experience",
-        company: "MSSquare Global",
-        role: "DevOps Intern",
-        duration: "June 2025",
-        highlight1: "Built Jenkins CI/CD pipelines for automated deployment",
-        highlight2: "Managed Git/GitHub workflows for version control",
-        highlight3: "Automated AWS services: IAM, S3, Lambda, EMR, Glue, Redshift",
+        company: "QWAT Innovations Pvt. Ltd.",
+        role: "Full Stack Developer Intern",
+        duration: "Dec 2025 — Feb 2026 (Remote)",
+        highlight1: "Developed and maintained 5+ full-stack web application modules using MongoDB, Express.js, React.js, and Node.js.",
+        highlight2: "Implemented secure authentication, authorization, role-based access control, and face recognition-based user verification.",
+        highlight3: "Designed and integrated RESTful APIs, improving frontend-backend communication and reducing response time by 25%.",
         listenSummary: "Listen Summary 🔊",
         stop: "Stop 🔇"
       },
@@ -59,14 +60,14 @@ const resources = {
         title: "Projects Showcase",
         bloodsetu: {
           name: "BloodSetu",
-          desc: "MERN Stack + WebSocket",
-          features: "Real-time blood donor-hospital platform with Geolocation API, JWT Authentication, WebSocket communication, and Admin Dashboard",
+          desc: "Blood Donor Finder Platform",
+          features: "MERN-based platform connecting donors, hospitals, and recipients with JWT authentication, role-based access control, email verification, and real-time WebSocket notifications.",
           liveLink: "Live Project"
         },
-        whisperoom: {
-          name: "Whisperoom",
-          desc: "MERN Stack + JWT + WebSocket",
-          features: "Secure real-time chat platform with JWT authentication, WebSocket messaging, and end-to-end encryption",
+        constitutiongpt: {
+          name: "ConstitutionGPT",
+          desc: "AI-Powered Legal Assistant",
+          features: "Built with React, FastAPI, MongoDB, OpenAI API, and ChromaDB to deliver retrieval-augmented legal guidance and role-based workflows for users, lawyers, and admins.",
           liveLink: "Live Project"
         },
         readAloud: "Read Aloud 🔊",
@@ -88,32 +89,27 @@ const resources = {
         download: "Download",
         from: "from",
         nptelJava: {
-          title: "NPTEL Elite+Silver: Java Programming",
-          issuer: "NPTEL (IIT/IISc)",
+          title: "NPTEL Elite+Silver: Programming in Java",
+          issuer: "IIT Kharagpur",
           date: "Score: 85%"
         },
         nptelSoftskills: {
-          title: "NPTEL Elite: Soft Skills & Personality",
-          issuer: "NPTEL (IIT/IISc)",
+          title: "NPTEL Elite: Developing Soft Skills & Personality",
+          issuer: "IIT Kanpur",
           date: "Score: 64%"
-        },
-        devops: {
-          title: "DevOps Internship Certificate",
-          issuer: "MSSquare Global",
-          date: "June 2025"
         }
       },
       achievements: {
         title: "Achievements & Certifications",
-        cert1: "NPTEL Elite+Silver: Java Programming (Score: 85%)",
-        cert2: "NPTEL Elite: Soft Skills & Personality Development (Score: 64%)",
+        cert1: "NPTEL Elite+Silver: Programming in Java — Score 85%",
+        cert2: "NPTEL Elite: Developing Soft Skills & Personality — Score 64%",
         listenSummary: "Listen Summary 🔊",
         stop: "Stop 🔇"
       },
       responsibilities: {
-        title: "Positions of Responsibility",
-        role1: "Training & Placement Cell Coordinator",
-        role2: "Event Coordinator (Treasure Hunt)"
+        title: "Core Strengths",
+        role1: "Strong problem-solving and database design using DSA and DBMS concepts.",
+        role2: "Agile development experience with secure authentication, REST APIs, and team collaboration."
       },
       contact: {
         title: "Contact Me",
@@ -125,6 +121,18 @@ const resources = {
       },
       footer: {
         text: "Built with ❤️ using React, Tailwind, and AI"
+      },
+      education: {
+        title: "Education",
+        degree1: "B.E. Computer Science & Engineering — CGPA 9.28/10",
+        school1: "NBN Sinhgad College of Engineering, Solapur",
+        year1: "2022 — 2026",
+        degree2: "Class XII (MSBSHSE) — 60%",
+        school2: "Walchand College of Science and Arts, Solapur",
+        year2: "2022",
+        degree3: "Class X (MSBSHSE) — 83%",
+        school3: "D. R. Shriram English Medium School, Solapur",
+        year3: "2020"
       }
     }
   },
@@ -133,6 +141,7 @@ const resources = {
       nav: {
         home: "होम",
         about: "परिचय",
+        education: "शिक्षण",
         skills: "कौशल",
         experience: "इंटर्नशिप",
         projects: "प्रोजेक्ट्स",
@@ -143,7 +152,7 @@ const resources = {
       },
       hero: {
         greeting: "नमस्ते, मैं अनुष्का हूँ 👋",
-        subtitle: "वेब डेवलपर • DevOps उत्साही • Java | MERN | AWS",
+        subtitle: "फुल-स्टॅक डेव्हलपर • MERN स्टॅक",
         exploreProjects: "प्रोजेक्ट्स देखें",
         contactMe: "संपर्क करें",
         activateVoice: "वॉयस मोड सक्रिय करें 🎙️",
@@ -151,7 +160,7 @@ const resources = {
       },
       about: {
         title: "मेरे बारे में",
-        bio: "MERN स्टैक और Java में कुशल फुल-स्टैक डेवलपर, स्केलेबल एप्लिकेशन, सुरक्षित प्रमाणीकरण सिस्टम और रियल-टाइम WebSocket-आधारित प्लेटफार्मों के निर्माण का अनुभव। NBN सिंहगड कॉलेज ऑफ इंजीनियरिंग में कंप्यूटर साइंस में B.E. कर रहा हूँ (CGPA: 9.10/10)। AWS क्लाउड ऑटोमेशन और CI/CD पाइपलाइनों में अनुभवी, मजबूत समस्या-समाधान क्षमता।",
+        bio: "MERN स्टैक और Java में कुशल फुल-स्टैक डेवलपर, स्केलेबल एप्लिकेशन, सुरक्षित प्रमाणीकरण सिस्टम और रियल-टाइम WebSocket-आधारित प्लेटफार्मों के निर्माण का अनुभव। NBN सिंहगड कॉलेज ऑफ इंजीनियरिंग में कंप्यूटर साइंस में B.E. कर रहा हूँ (CGPA: 9.10/10)। मजबूत समस्या-समाधान क्षमता और व्यावहारिक परियोजना अनुभव।",
         location: "सोलापुर, महाराष्ट्र",
         playVoice: "वॉइस सारांश चलाएं 🔊",
         stop: "रोकें 🔇",
@@ -165,7 +174,7 @@ const resources = {
         webTech: "वेब प्रौद्योगिकियाँ",
         webTechList: "React.js, Node.js, Express.js, MongoDB",
         tools: "उपकरण और क्लाउड",
-        toolsList: "AWS (S3, Lambda, Glue, EMR, Redshift), Jenkins, Maven, Git, GitHub",
+        toolsList: "Jenkins, Maven, Git, GitHub, Postman, Vercel, Netlify, Render",
         other: "अन्य कौशल",
         otherList: "REST APIs, WebSocket, JWT, CI/CD, Cloud Automation",
         listenSummary: "सारांश सुनें 🔊",
@@ -178,7 +187,7 @@ const resources = {
         role: "DevOps इंटर्न",
         duration: "जून 2025",
         highlight1: "वास्तविक-दुनिया की तैनाती के लिए CI/CD पाइपलाइन बनाई",
-        highlight2: "AWS सेवाओं के साथ वर्कफ़्लो स्वचालित किए",
+        highlight2: "वर्कफ़्लो स्वचालित किए",
         highlight3: "कोड एकीकरण और संस्करण नियंत्रण का प्रबंधन किया",
         listenSummary: "सारांश सुनें 🔊"
       },
@@ -260,6 +269,7 @@ const resources = {
       nav: {
         home: "मुख्यपृष्ठ",
         about: "माझ्याबद्दल",
+        education: "शिक्षण",
         skills: "कौशल्ये",
         experience: "इंटर्नशिप",
         projects: "प्रकल्प",
@@ -270,7 +280,7 @@ const resources = {
       },
       hero: {
         greeting: "नमस्कार, मी अनुष्का आहे 👋",
-        subtitle: "वेब डेव्हलपर • DevOps उत्साही • Java | MERN | AWS",
+        subtitle: "फुल-स्टॅक डेव्हलपर • MERN स्टॅक",
         exploreProjects: "प्रकल्प पहा",
         contactMe: "संपर्क करा",
         activateVoice: "व्हॉइस मोड सक्रिय करा 🎙️",
@@ -278,7 +288,7 @@ const resources = {
       },
       about: {
         title: "माझ्याबद्दल",
-        bio: "MERN स्टॅक आणि Java मध्ये कुशल फुल-स्टॅक डेव्हलपर, स्केलेबल अनुप्रयोग, सुरक्षित प्रमाणीकरण प्रणाली आणि रिअल-टाइम WebSocket-आधारित प्लॅटफॉर्म तयार करण्याचा अनुभव. NBN सिंहगड कॉलेज ऑफ इंजिनियरिंगमध्ये कॉम्प्युटर सायन्समध्ये B.E. करत आहे (CGPA: 9.10/10). AWS क्लाउड ऑटोमेशन आणि CI/CD पाइपलाइनमध्ये अनुभवी, मजबूत समस्या-निवारण क्षमता.",
+        bio: "MERN स्टॅक आणि Java मध्ये कुशल फुल-स्टॅक डेव्हलपर, स्केलेबल अनुप्रयोग, सुरक्षित प्रमाणीकरण प्रणाली आणि रिअल-टाइम WebSocket-आधारित प्लॅटफॉर्म तयार करण्याचा अनुभव. NBN सिंहगड कॉलेज ऑफ इंजिनियरिंगमध्ये कॉम्प्युटर सायन्समध्ये B.E. करत आहे (CGPA: 9.10/10). मजबूत समस्या-निवारण क्षमता आणि व्यावहारिक प्रकल्प अनुभव.",
         location: "सोलापूर, महाराष्ट्र",
         playVoice: "व्हॉइस सारांश प्ले करा 🔊",
         stop: "थांबवा 🔇",
@@ -292,7 +302,7 @@ const resources = {
         webTech: "वेब तंत्रज्ञान",
         webTechList: "React.js, Node.js, Express.js, MongoDB",
         tools: "साधने आणि क्लाउड",
-        toolsList: "AWS (S3, Lambda, Glue, EMR, Redshift), Jenkins, Maven, Git, GitHub",
+        toolsList: "Jenkins, Maven, Git, GitHub, Postman, Vercel, Netlify, Render",
         other: "इतर कौशल्ये",
         otherList: "REST APIs, WebSocket, JWT, CI/CD, Cloud Automation",
         listenSummary: "सारांश ऐका 🔊",
@@ -305,7 +315,7 @@ const resources = {
         role: "DevOps इंटर्न",
         duration: "जून 2025",
         highlight1: "वास्तविक-जगाच्या तैनातीसाठी CI/CD पाइपलाइन तयार केल्या",
-        highlight2: "AWS सेवांसह वर्कफ्लो स्वयंचलित केले",
+        highlight2: "वर्कफ्लो स्वयंचलित केले",
         highlight3: "कोड एकत्रीकरण आणि आवृत्ती नियंत्रण व्यवस्थापित केले",
         listenSummary: "सारांश ऐका 🔊"
       },

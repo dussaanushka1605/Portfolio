@@ -30,13 +30,6 @@ const Certificates = () => {
       link: 'https://drive.google.com/file/d/1DIpENBwbxwoX756aq4kiZHxc5D6-s4zJ/preview',
       isExternal: true,
     },
-    {
-      title: t('certificates.devops.title'),
-      issuer: t('certificates.devops.issuer'),
-      date: t('certificates.devops.date'),
-      link: 'https://drive.google.com/file/d/1yXaBFSyOPipC4vU6oEEAK2kt6aGROA1u/preview',
-      isExternal: true,
-    },
   ];
 
   const handleSpeakSummary = () => {
@@ -96,7 +89,7 @@ const Certificates = () => {
 
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 justify-items-center">
           {certificates.map((cert, index) => (
             <motion.div
               key={index}
@@ -105,7 +98,7 @@ const Certificates = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.05, y: -10 }}
-              className="glass rounded-3xl p-6 cursor-pointer group relative overflow-hidden"
+              className="glass rounded-3xl p-6 cursor-pointer group relative overflow-hidden w-full max-w-xl"
               onClick={() => handleViewCertificate(cert.link, cert.isExternal)}
             >
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent opacity-0 group-hover:opacity-10 transition-opacity duration-300" />

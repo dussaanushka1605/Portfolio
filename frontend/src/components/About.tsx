@@ -81,29 +81,29 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="glass-strong rounded-xl p-6 flex items-center gap-4"
+            className="glass-strong rounded-xl p-6 flex items-center gap-4 text-slate-900 dark:text-slate-950"
           >
             <MapPin className="text-primary" size={24} />
             <div>
-              <p className="text-sm opacity-70">Location</p>
+              <p className="text-sm opacity-70 text-slate-600 dark:text-slate-500">Location</p>
               <p className="font-semibold">{t('about.location')}</p>
             </div>
           </motion.div>
 
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="glass-strong rounded-xl p-6 flex items-center gap-4"
+            className="glass-strong rounded-xl p-6 flex items-center gap-4 text-slate-900 dark:text-slate-950"
           >
             <Mail className="text-accent" size={24} />
             <div>
-              <p className="text-sm opacity-70">Email</p>
+              <p className="text-sm opacity-70 text-slate-600 dark:text-slate-500">Email</p>
               <p className="font-semibold text-sm">anushkadussa.nbnscoe.comp@gmail.com</p>
             </div>
           </motion.div>
 
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="glass-strong rounded-xl p-6"
+            className="glass-strong rounded-xl p-6 text-slate-900 dark:text-slate-950"
           >
             <a
               href="https://linkedin.com/in/anushkadussa"
@@ -113,7 +113,7 @@ const About = () => {
             >
               <Linkedin size={24} />
               <div>
-                <p className="text-sm opacity-70">LinkedIn</p>
+                <p className="text-sm opacity-70 text-slate-600 dark:text-slate-500">LinkedIn</p>
                 <p className="font-semibold">linkedin.com/in/anushkadussa</p>
               </div>
             </a>
@@ -121,7 +121,7 @@ const About = () => {
 
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="glass-strong rounded-xl p-6"
+            className="glass-strong rounded-xl p-6 text-slate-900 dark:text-slate-950"
           >
             <a
               href="https://github.com/dussaanushka1605"
@@ -131,7 +131,7 @@ const About = () => {
             >
               <Github size={24} />
               <div>
-                <p className="text-sm opacity-70">GitHub</p>
+                <p className="text-sm opacity-70 text-slate-600 dark:text-slate-500">GitHub</p>
                 <p className="font-semibold">github.com/dussaanushka1605</p>
               </div>
             </a>

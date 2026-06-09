@@ -50,7 +50,7 @@ const Experience = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="flex items-start gap-3 glass-strong p-4 rounded-xl"
+                className="flex items-start gap-3 glass-strong p-4 rounded-xl text-slate-900 dark:text-slate-950"
               >
                 <CheckCircle2 size={24} className="text-accent flex-shrink-0 mt-0.5" />
                 <p className="text-lg">{highlight}</p>

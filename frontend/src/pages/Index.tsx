@@ -6,6 +6,7 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
+import Education from '@/components/Education';
 import Projects from '@/components/Projects';
 import Resume from '@/components/Resume';
 import Certificates from '@/components/Certificates';
@@ -19,11 +20,11 @@ const Index = () => {
 
   useEffect(() => {
     // Update meta tags
-    document.title = "Anushka Markandeya Dussa - Web Developer & DevOps Enthusiast";
+    document.title = "Anushka Markandeya Dussa - Software Engineer | Full-Stack Developer";
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Portfolio of Anushka Markandeya Dussa - Computer Science Engineering student passionate about Web Development and DevOps. Skilled in Java, MERN Stack, and AWS.');
+      metaDescription.setAttribute('content', 'Portfolio of Anushka Markandeya Dussa - Software Engineer with internship experience in full-stack web development, REST APIs, secure authentication, and real-time applications.');
     }
   }, []);
 
@@ -35,6 +36,7 @@ const Index = () => {
       <main className="relative z-10">
         <Hero />
       <About />
+      <Education />
       <Skills />
       <Experience />
       <Projects />
@@ -49,23 +51,23 @@ const Index = () => {
                 <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   Anushka Markandeya Dussa
                 </h3>
-                <p className="text-muted-foreground mb-4">
-                  Web Developer • DevOps Enthusiast
+                <p className="text-slate-900 dark:text-slate-950 mb-4">
+                  Software Engineer • Full-Stack Developer
                 </p>
               </div>
               
               <div className="space-y-3">
-                <h4 className="text-lg font-semibold mb-4">Contact Information</h4>
+                <h4 className="text-lg font-semibold mb-4 text-slate-900 dark:text-slate-950">Contact Information</h4>
                 <a 
                   href="mailto:anushkadussa.nbnscoe.comp@gmail.com"
-                  className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
+                  className="flex items-center gap-3 text-slate-900 dark:text-slate-950 hover:text-primary transition-colors group"
                 >
                   <Mail size={20} className="group-hover:scale-110 transition-transform" />
                   <span>anushkadussa.nbnscoe.comp@gmail.com</span>
                 </a>
                 <a 
                   href="tel:+918446543893"
-                  className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors group"
+                  className="flex items-center gap-3 text-slate-900 dark:text-slate-950 hover:text-accent transition-colors group"
                 >
                   <Phone size={20} className="group-hover:scale-110 transition-transform" />
                   <span>+91-8446543893</span>
@@ -74,7 +76,7 @@ const Index = () => {
                   href="https://linkedin.com/in/anushkadussa"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
+                  className="flex items-center gap-3 text-slate-900 dark:text-slate-950 hover:text-primary transition-colors group"
                 >
                   <Linkedin size={20} className="group-hover:scale-110 transition-transform" />
                   <span>linkedin.com/in/anushkadussa</span>
@@ -83,7 +85,7 @@ const Index = () => {
                   href="https://github.com/dussaanushka1605"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors group"
+                  className="flex items-center gap-3 text-slate-900 dark:text-slate-950 hover:text-accent transition-colors group"
                 >
                   <Github size={20} className="group-hover:scale-110 transition-transform" />
                   <span>github.com/dussaanushka1605</span>
@@ -92,7 +94,7 @@ const Index = () => {
             </div>
             
             <div className="text-center pt-8 border-t border-primary/20">
-              <p className="text-muted-foreground">
+              <p className="text-slate-900 dark:text-slate-950">
                 © 2025 Anushka Markandeya Dussa — {t('footer.text')}
               </p>
             </div>

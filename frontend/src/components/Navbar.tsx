@@ -21,6 +21,7 @@ const Navbar = () => {
   const navLinks = [
     { labelKey: 'nav.home', href: '#hero' },
     { labelKey: 'nav.about', href: '#about' },
+    { labelKey: 'nav.education', href: '#education' },
     { labelKey: 'nav.skills', href: '#skills' },
     { labelKey: 'nav.experience', href: '#experience' },
     { labelKey: 'nav.projects', href: '#projects' },
@@ -48,11 +49,13 @@ const Navbar = () => {
     setShowLangMenu(false);
   };
 
+  const isDark = theme === 'dark';
+
   return (
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed top-0 left-0 right-0 z-50 glass-strong backdrop-blur-xl"
+      className={`fixed top-0 left-0 right-0 z-50 ${isDark ? 'bg-black/95 border-b border-white/10 text-white' : 'glass-strong backdrop-blur-xl'}`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
@@ -70,10 +73,8 @@ const Navbar = () => {
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
-                className="px-3 py-2 rounded-lg text-sm font-medium hover:bg-primary/10 transition-colors"
-                style={{ color: 'hsl(var(--foreground))' }}
+                className={`px-3 py-2 rounded-lg text-sm font-medium hover:bg-primary/10 transition-colors ${isDark ? 'text-white hover:bg-white/10' : 'text-slate-900'}`}
               >
-
                 {t(link.labelKey)}
               </button>
             ))}
@@ -162,10 +163,8 @@ const Navbar = () => {
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
-                className="block w-full text-left px-3 py-2 rounded-lg text-sm font-medium hover:bg-primary/10 transition-colors"
-                style={{ color: 'hsl(var(--foreground))' }}
+                className={`block w-full text-left px-3 py-2 rounded-lg text-sm font-medium hover:bg-primary/10 transition-colors ${isDark ? 'text-white hover:bg-white/10' : 'text-slate-900'}`}
               >
-
                 {t(link.labelKey)}
               </button>
             ))}

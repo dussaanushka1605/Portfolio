@@ -11,8 +11,8 @@ const Resume = () => {
   
 
   // Google Drive resume link
-  const resumeDriveLink = 'https://drive.google.com/file/d/1L0YEzXmrcLhavuUc83w3ZPk6LApBGa1P/view?usp=drivesdk';
-  const resumeFileId = '1L0YEzXmrcLhavuUc83w3ZPk6LApBGa1P';
+  const resumeDriveLink = 'https://drive.google.com/file/d/1qa2z1iCsTaTx24ZpPBzGJ75Gd1s0vbZr/view?usp=drivesdk';
+  const resumeFileId = '1qa2z1iCsTaTx24ZpPBzGJ75Gd1s0vbZr';
   
   // For preview in iframe (Google Drive preview format)
   const resumePreviewUrl = `https://drive.google.com/file/d/${resumeFileId}/preview`;

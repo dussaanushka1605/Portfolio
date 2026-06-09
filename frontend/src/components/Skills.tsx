@@ -15,25 +15,25 @@ const Skills = () => {
     {
       icon: Code2,
       title: t('skills.languages'),
-      skills: ['Java', 'JavaScript', 'C', 'Python', 'SQL'],
+      skills: ['Java', 'Python', 'SQL', 'C'],
       color: 'primary',
     },
     {
       icon: Globe,
       title: t('skills.webTech'),
-      skills: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+      skills: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'MySQL', 'Firebase'],
       color: 'accent',
     },
     {
       icon: Cloud,
       title: t('skills.tools'),
-      skills: ['AWS S3', 'AWS Lambda', 'AWS Glue', 'AWS EMR', 'AWS Redshift', 'Jenkins', 'Maven'],
+      skills: ['Git', 'GitHub', 'Postman', 'Vercel', 'Netlify', 'Render'],
       color: 'primary',
     },
     {
       icon: Wrench,
       title: t('skills.other'),
-      skills: ['REST APIs', 'WebSocket', 'JWT', 'Git', 'GitHub', 'CI/CD', 'Cloud Automation'],
+      skills: ['REST APIs', 'WebSocket', 'JWT', 'Role-based Access Control', 'Secure Authentication', 'DBMS Concepts'],
       color: 'accent',
     },
   ];

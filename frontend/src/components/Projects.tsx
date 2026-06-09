@@ -22,11 +22,11 @@ const Projects = () => {
       gradient: 'from-primary to-accent',
     },
     {
-      name: t('projects.whisperoom.name'),
-      description: t('projects.whisperoom.desc'),
-      features: t('projects.whisperoom.features'),
-      github: 'https://github.com/dussaanushka1605/whisperoom',
-      liveUrl: 'https://whisperoom.netlify.app/',
+      name: t('projects.constitutiongpt.name'),
+      description: t('projects.constitutiongpt.desc'),
+      features: t('projects.constitutiongpt.features'),
+      github: 'https://github.com/dussaanushka1605/constitutiongpt',
+      liveUrl: 'https://constitution-gpt-beta.vercel.app/',
       gradient: 'from-accent to-primary',
     },
   ];
