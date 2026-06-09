@@ -1,71 +1,104 @@
 <<<<<<< HEAD
 # Frontend
 
-This folder contains all frontend-related files and code.
+This folder contains the portfolio frontend application built with React, Vite, and TypeScript.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v18+ recommended)
+- npm
 
-### Installation
+### Install dependencies
 
 ```sh
-# Install dependencies
+cd frontend
 npm install
 ```
 
-### Development
+### Run locally
 
 ```sh
-# Start the development server
 npm run dev
 ```
 
-The development server will start on `http://localhost:8080` (or the next available port).
+Open `http://localhost:8080` in your browser to view the portfolio.
 
-### Build
+### Production build
 
 ```sh
-# Build for production
 npm run build
-
-# Preview production build
 npm run preview
 ```
 
-## 📁 Structure
+## 📁 Project structure
 
 ```
 frontend/
-├── src/              # Source code
-│   ├── components/   # React components
-│   ├── pages/        # Page components
-│   ├── hooks/        # Custom React hooks
-│   ├── lib/          # Utility functions
-│   └── i18n/         # Internationalization
 ├── public/           # Static assets
-└── index.html        # HTML entry point
+├── src/
+│   ├── assets/       # Images and static media
+│   ├── components/   # Reusable UI components
+│   ├── hooks/        # Custom React hooks
+│   ├── i18n/         # Internationalization config and translations
+│   ├── lib/          # Utility functions
+│   └── pages/        # Page-level components
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
 ```
 
 ## 🛠️ Technologies
 
-- **Vite** - Build tool and dev server
-- **TypeScript** - Type safety
-- **React** - UI library
-- **shadcn-ui** - UI components
-- **Tailwind CSS** - Styling
-- **React Router** - Routing
-- **i18next** - Internationalization
+- **Vite**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn-ui**
+- **Framer Motion**
+- **i18next**
+- **next-themes**
 
-## 📝 Scripts
+## ✨ Features
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run build:dev` - Build in development mode
-- `npm run lint` - Run ESLint
-- `npm run preview` - Preview production build
+- Multilingual support (English, Hindi, Marathi)
+- Dark / Light mode toggle
+- Voice assistant for English content
+- Responsive UI for desktop and mobile
+- Smooth animations and modern layout
+- Glass morphism-inspired design
+
+## 📌 Scripts
+
+- `npm run dev` — Start the development server
+- `npm run build` — Generate production build
+- `npm run build:dev` — Production build in development mode
+- `npm run preview` — Preview the production build locally
+- `npm run lint` — Run ESLint
+
+## 📦 Deployment
+
+### Netlify
+
+1. Connect the GitHub repository to Netlify.
+2. Set the build command to:
+   ```sh
+   cd frontend && npm install && npm run build
+   ```
+3. Set the publish directory to:
+   ```sh
+   frontend/dist
+   ```
+4. Deploy the site.
+
+## 👤 Author
+
+**Anushka Markandeya Dussa**
+
+- Email: anushkadussa.nbnscoe.comp@gmail.com
+- LinkedIn: [linkedin.com/in/anushkadussa](https://linkedin.com/in/anushkadussa)
+- GitHub: [github.com/dussaanushka1605](https://github.com/dussaanushka1605)
 
 =======
 # Welcome to your Lovable project

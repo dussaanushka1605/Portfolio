@@ -1,20 +1,18 @@
-# Portfolio Project - Anushka Markandeya Dussa
+# Anushka Markandeya Dussa — Portfolio
 
-A modern, multilingual portfolio website showcasing skills, projects, and achievements.
+A modern, multilingual portfolio website for a Full-Stack MERN developer showcasing skills, projects, internship experience, and certifications.
 
 ## 📁 Project Structure
 
-```
+```text
 portfolio/
-├── frontend/     # Frontend application (React + Vite + TypeScript)
-└── backend/      # Backend application (to be implemented)
+├── frontend/     # React + Vite + TypeScript frontend application
+└── backend/      # Backend placeholder for future implementation
 ```
 
 ## 🚀 Getting Started
 
 ### Frontend
-
-Navigate to the frontend directory and follow the instructions in `frontend/README.md`:
 
 ```sh
 cd frontend
@@ -22,50 +20,51 @@ npm install
 npm run dev
 ```
 
-The development server will start on `http://localhost:8080`
+Open `http://localhost:8080` in your browser.
 
 ### Backend
 
-Backend is currently empty and ready for future implementation.
+The backend folder is currently empty and available for future features.
 
-## 📚 Technologies
+## 🛠️ Technologies
 
-### Frontend
-- **Vite** - Build tool and dev server
-- **TypeScript** - Type safety
-- **React** - UI library
-- **shadcn-ui** - UI components
-- **Tailwind CSS** - Styling
-- **Framer Motion** - Animations
-- **i18next** - Internationalization (English, Hindi, Marathi)
-- **next-themes** - Dark/Light theme support
+- **Vite**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn-ui**
+- **Framer Motion**
+- **i18next**
+- **next-themes**
 
-### Features
-- 🌐 Multilingual support (English, Hindi, Marathi)
-- 🌓 Dark/Light theme toggle
-- 🎙️ Voice assistant (English only)
-- 📱 Fully responsive design
-- ✨ Smooth animations
-- 🎨 Glass morphism UI
+## ✨ Features
 
-## 🚀 Deployment
+- Multilingual support (English, Hindi, Marathi)
+- Dark / Light theme toggle
+- Voice assistant for English content
+- Responsive layout for mobile and desktop
+- Smooth animations and modern UI
+- Glass morphism-inspired design
 
-### Frontend (Netlify)
-1. Connect your GitHub repository to Netlify
-2. Set build command: `cd frontend && npm install && npm run build`
-3. Set publish directory: `frontend/dist`
-4. Deploy!
+## 📦 Deployment
 
-### Backend (Not Required)
-This portfolio is a static frontend application and does not require backend deployment. All features work without a server.
+### Netlify
 
-## 📝 License
-
-MIT License - See LICENSE file for details
+1. Connect the repository to Netlify.
+2. Set the build command:
+   ```sh
+   cd frontend && npm install && npm run build
+   ```
+3. Set the publish directory to:
+   ```sh
+   frontend/dist
+   ```
+4. Deploy the site.
 
 ## 👤 Author
 
 **Anushka Markandeya Dussa**
+
 - Email: anushkadussa.nbnscoe.comp@gmail.com
 - LinkedIn: [linkedin.com/in/anushkadussa](https://linkedin.com/in/anushkadussa)
 - GitHub: [github.com/dussaanushka1605](https://github.com/dussaanushka1605)
